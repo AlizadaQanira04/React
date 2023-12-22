@@ -29,11 +29,11 @@
         border-radius: 12px;
         border: 2px solid transparent;
         transition: all 600ms;
-      }
-      button:hover {
-        background-color: transparent;
-        color: rgba(95, 20, 95, 0.842);
-        border: 2px solid rgba(95, 20, 95, 0.842);
+        &:hover {
+          background-color: transparent;
+          color: rgba(95, 20, 95, 0.842);
+          border: 2px solid rgba(95, 20, 95, 0.842);
+        }
       }
     }
     .right {

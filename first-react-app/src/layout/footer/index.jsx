@@ -26,9 +26,10 @@ function Header() {
               <input className="input2" type="submit"></input>
             </form>
             <div className="icons">
-            <FaFacebookF />
-            <FaInstagram />
-            <FaLinkedinIn />
+              <div className="icon"><FaFacebookF /></div>
+              <div className="icon">  <FaInstagram /></div>
+              <div className="icon"> <FaLinkedinIn /></div>
+            
             </div>
           </div>
         </div>
