@@ -1,0 +1,33 @@
+header{
+    background-color: teal;
+    .header{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        padding: 20px 0;
+        .logo{
+            h1{
+                color: white;
+            }
+        }
+        nav{
+            ul{
+                display: flex;
+                gap: 30px;
+                justify-content: center;
+                align-items: center;
+                li{
+                    a{
+                        color: white;
+                        font-size: 1.2rem;
+                        &.active{
+                            color: orange;
+                            text-decoration: 1px underline orange;
+                        }
+                    }
+                    
+                }
+            }
+        }
+    }
+}
